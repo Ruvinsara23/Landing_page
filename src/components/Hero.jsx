@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { discount,robot } from '../assets'
+import GetStarted from './GetStarted'
 
 
 const Hero = () => 
@@ -19,12 +20,22 @@ const Hero = () =>
          </p>
       </div>
       <div className='flex flex-row items-center justify-between'>
-      <h1 className='text-[52px] ss:text-[72px] font-semibold font-poppins text-white'>The Next <br className='sm:block hidden'></br> <span className='text-green-400'>Generation </span><br></br> 
+      <h1 className='text-[52px] ss:text-[72px] font-semibold font-poppins text-white'>The Next <br className='sm:block hidden'></br> <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-200'>Generation </span><br></br> 
        Payment Method.</h1>
+       <div className='ss:flex hidden md:mr-4 mr-0 ml-5'>
+       <GetStarted />
+       </div>
+       
       </div>
-      
+      <p className={`${styles.paragraph} max-w-[420px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
+      We examine annual percentage rates, annual fees.
+      </p>
    </div>
    
+   <div className={`${styles.flexCenter} flex-1 flex md:my-0 my-10 relative`}>
+   <img src={robot} alt='bilding' className='ss:pt-[100px] relative z-[5]'/>
+   <div className='absolute z-[110] w-[50%] h-[50%] right-20 bottom-20 to-blue-300'></div>
+   </div> 
    </section>
   )
 

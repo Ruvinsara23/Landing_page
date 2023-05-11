@@ -7,8 +7,8 @@ Footer } from './components'
 const App = () => {
   return (
     <div className='bg-black-primary w-full overflow-hidden' >
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-       <div className={`${styles.boxWidth}`}>
+      <div className={` ${styles.flexCenter} p-0`}>
+       <div className={`bg-primary ${styles.boxWidth} `}>
         <NavBar />
        </div> 
       </div>

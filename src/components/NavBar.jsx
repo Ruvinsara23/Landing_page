@@ -7,8 +7,8 @@ import { navLinks } from '../constans'
 const NavBar = () => {
   return (
    
-   <nav className='w-full flex py-6  items-center navba justify-around' >
-    <div className='container flex justify-between text-center items-cente flex-wrap  '> 
+   <nav className='w-full flex py-6  items-center navba justify-around text-white' >
+    <div className='container flex justify-between text-center items-cente flex-wrap'> 
       <div className='items-start flex  space-x-4 '> 
         <div className=''>
         <h1>logo</h1>
