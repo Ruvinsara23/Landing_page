@@ -7,8 +7,8 @@ Footer } from './components'
 const App = () => {
   return (
     <div className='bg-black-primary w-full overflow-hidden' >
-      <div className={` ${styles.flexCenter} p-0`}>
-       <div className={`bg-primary ${styles.boxWidth} `}>
+      <div className={`  ${styles.flexCenter}  justify-center`}>
+       <div className={`bg-primary ${styles.boxWidth}`}>
         <NavBar />
        </div> 
       </div>
@@ -18,7 +18,7 @@ const App = () => {
       </div>
     </div>
     <div className={`bg-primary ${styles.paddingX}`}>
-    <div className={`${styles.boxWidth}`}>
+    <div className={`${styles.boxWidth} `}>
       <Stats />
       <Business />
       <Billing />
@@ -27,9 +27,6 @@ const App = () => {
       <Clients />
       <Cta />
       <Footer />
-
-       
-
     </div>
   </div>
 
